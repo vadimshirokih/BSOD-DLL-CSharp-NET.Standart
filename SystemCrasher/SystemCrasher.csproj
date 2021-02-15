@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="dll\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\andkfox.bsod\andkfox.bsod.csproj" />
+  </ItemGroup>
+
+</Project>
